@@ -35,7 +35,6 @@ modules:
       - okular
       - gwenview
       - kvantum
-      #- VirtualBox
       - virt-manager
       #####################
       - steam-devices
