@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: blue-build/template
+  - label: diego5714/kinoite-custom-amd-v4
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: blue-build/template
+      - label: Kinoite-Custom-AMD-v4
