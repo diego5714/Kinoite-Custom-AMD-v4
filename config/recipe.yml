@@ -159,7 +159,7 @@ modules:
 
   - type: akmods
     install:
-      - ryzensmu
+      #- ryzensmu
       - openrgb
   
   - type: default-flatpaks
