@@ -157,6 +157,11 @@ modules:
       - intel-mediasdk
       - oneVPL-intel-gpu
 
+  - type: akmods
+    install:
+      - ryzen_smu
+      - openrgb
+  
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
