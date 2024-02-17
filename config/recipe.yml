@@ -20,11 +20,143 @@ modules:
   - type: rpm-ostree
     repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-      # - micro
-      # - starship
+      ####################
+      - lm_sensors
+      - corectrl
+      - neofetch
+      - fastboot
+      - gcc 
+      - hunspell-es
+      - hunspell-es-CL
+      #####################
+      - gnome-disk-utility
+      - simple-scan
+      - skanpage
+      - okular
+      - gwenview
+      - kvantum
+      #- VirtualBox
+      - virt-manager
+      #####################
+      - steam-devices
+      - gamescope
+      - goverlay
+      
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
+      - mozilla-filesystem
+      - mozilla-openh264
+      - google-noto-sans-cjk-fonts
+      - google-noto-sans-javanese-fonts
+      - google-noto-sans-balinese-fonts
+      - google-noto-sans-sundanese-fonts
+      - google-noto-naskh-arabic-vf-fonts
+      - google-noto-sans-arabic-vf-fonts
+      - google-noto-sans-armenian-vf-fonts
+      - google-noto-sans-bengali-vf-fonts
+      - google-noto-sans-canadian-aboriginal-vf-fonts
+      - google-noto-sans-cherokee-vf-fonts
+      - google-noto-sans-devanagari-vf-fonts
+      - google-noto-sans-ethiopic-vf-fonts
+      - google-noto-sans-georgian-vf-fonts
+      - google-noto-sans-gujarati-vf-fonts
+      - google-noto-sans-gurmukhi-vf-fonts
+      - google-noto-sans-hebrew-vf-fonts
+      - google-noto-sans-kannada-vf-fonts
+      - google-noto-sans-khmer-vf-fonts
+      - google-noto-sans-lao-vf-fonts
+      - google-noto-sans-mono-cjk-vf-fonts
+      - google-noto-sans-oriya-vf-fonts
+      - google-noto-sans-sinhala-vf-fonts
+      - google-noto-sans-tamil-vf-fonts
+      - google-noto-sans-telugu-vf-fonts
+      - google-noto-sans-thaana-vf-fonts
+      - google-noto-sans-thai-vf-fonts
+      - google-noto-serif-armenian-vf-fonts
+      - google-noto-serif-bengali-vf-fonts
+      - google-noto-serif-cjk-vf-fonts
+      - google-noto-serif-devanagari-vf-fonts
+      - google-noto-serif-georgian-vf-fonts
+      - google-noto-serif-gujarati-vf-fonts
+      - google-noto-serif-gurmukhi-vf-fonts
+      - google-noto-serif-hebrew-vf-fonts
+      - google-noto-serif-kannada-vf-fonts
+      - google-noto-serif-khmer-vf-fonts
+      - google-noto-serif-lao-vf-fonts
+      - google-noto-serif-oriya-vf-fonts
+      - google-noto-serif-sinhala-vf-fonts
+      - google-noto-serif-tamil-vf-fonts
+      - google-noto-serif-telugu-vf-fonts
+      - google-noto-serif-thai-vf-fonts
+      - default-fonts-cjk-mono
+      - default-fonts-am
+      - default-fonts-ar
+      - default-fonts-as
+      - default-fonts-ast
+      - default-fonts-be
+      - default-fonts-bg
+      - default-fonts-bn
+      - default-fonts-bo
+      - default-fonts-br
+      - default-fonts-chr
+      - default-fonts-cjk-serif
+      - default-fonts-dv
+      - default-fonts-dz
+      - default-fonts-el
+      - default-fonts-eo
+      - default-fonts-eu
+      - default-fonts-fa
+      - default-fonts-gu
+      - default-fonts-he
+      - default-fonts-hi
+      - default-fonts-hy
+      - default-fonts-ia
+      - default-fonts-iu
+      - default-fonts-ka
+      - default-fonts-km
+      - default-fonts-kn
+      - default-fonts-ku
+      - default-fonts-lo
+      - default-fonts-mai
+      - default-fonts-ml
+      - default-fonts-mr
+      - default-fonts-my
+      - default-fonts-nb
+      - default-fonts-ne
+      - default-fonts-nn
+      - default-fonts-nr
+      - default-fonts-nso
+      - default-fonts-or
+      - default-fonts-pa
+      - default-fonts-ru
+      - default-fonts-si
+      - default-fonts-ss
+      - default-fonts-ta
+      - default-fonts-te
+      - default-fonts-th
+      - default-fonts-tn
+      - default-fonts-ts
+      - default-fonts-uk
+      - default-fonts-ur
+      - default-fonts-ve
+      - default-fonts-vi
+      - default-fonts-xh
+      - default-fonts-yi
+      - default-fonts-zu
+      - jomolhari-fonts
+      - default-fonts-other-sans
+      - default-fonts-other-serif
+      - default-fonts-other-mono
+      - nvidia-gpu-firmware
+      - libratbag-ratbagd
+      - xwaylandvideobridge
+      - intel-media-driver
+      - libva-intel-driver
+      - intel-gmmlib
+      - intel-gpu-firmware
+      - intel-mediasdk
+      - oneVPL-intel-gpu
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
