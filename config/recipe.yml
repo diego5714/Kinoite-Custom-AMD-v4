@@ -21,25 +21,28 @@ modules:
     repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
       ####################
+      #Utilidades
       - lm_sensors
-      - corectrl
       - neofetch
       - fastboot
-      - gcc 
-      - hunspell-es
-      - hunspell-es-CL
+      - gcc
+      - gamescope
       #####################
+      #Aplicaciones con GUI
       - gnome-disk-utility
+      - corectrl
       - simple-scan
       - skanpage
       - okular
       - gwenview
       - kvantum
-      - virt-manager
-      #####################
-      - steam-devices
-      - gamescope
       - goverlay
+      - VirtualBox
+      #####################
+      #Configuracion
+      - steam-devices
+      - hunspell-es
+      - hunspell-es-CL
       
     remove:
       - firefox # default firefox removed in favor of flatpak
