@@ -38,6 +38,7 @@ modules:
       - kvantum
       - goverlay
       - VirtualBox
+      - virt-manager
       #####################
       #Configuracion
       - steam-devices
