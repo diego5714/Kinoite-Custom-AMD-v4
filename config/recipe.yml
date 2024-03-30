@@ -45,9 +45,24 @@ modules:
       - hunspell-es-CL
       
     remove:
+      #####################
+      #Programas
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
       - mozilla-filesystem
+      ######################
+      #Otros
+      - nvidia-gpu-firmware
+      - intel-gpu-firmware
+      - libratbag-ratbagd
+      - xwaylandvideobridge
+      - libva-intel-hybrid-driver
+      - libva-intel-media-driver
+      - intel-gmmlib
+      - intel-mediasdk
+      - oneVPL-intel-gpu
+      ######################
+      #Fonts
       - google-noto-sans-cjk-fonts
       - google-noto-sans-javanese-fonts
       - google-noto-sans-balinese-fonts
@@ -149,15 +164,6 @@ modules:
       - default-fonts-other-sans
       - default-fonts-other-serif
       - default-fonts-other-mono
-      - nvidia-gpu-firmware
-      - libratbag-ratbagd
-      - xwaylandvideobridge
-      - intel-media-driver
-      - libva-intel-driver
-      - intel-gmmlib
-      - intel-gpu-firmware
-      - intel-mediasdk
-      - oneVPL-intel-gpu
   
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
