@@ -37,7 +37,7 @@ modules:
       - gwenview
       - kvantum
       - goverlay
-      - VirtualBox
+      - virt-manager
       #####################
       #Configuracion
       - steam-devices
@@ -158,11 +158,6 @@ modules:
       - intel-gpu-firmware
       - intel-mediasdk
       - oneVPL-intel-gpu
-
-  - type: akmods
-    base: main
-    install:
-      - VirtualBox
   
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
