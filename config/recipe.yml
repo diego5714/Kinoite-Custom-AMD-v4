@@ -82,7 +82,9 @@ modules:
       - google-noto-sans-kannada-vf-fonts
       - google-noto-sans-khmer-vf-fonts
       - google-noto-sans-lao-vf-fonts
+      - google-noto-sans-meeteimayek-vf-fonts
       - google-noto-sans-mono-cjk-vf-fonts
+      - google-noto-sans-ol-chiki-vf-fonts
       - google-noto-sans-oriya-vf-fonts
       - google-noto-sans-sinhala-vf-fonts
       - google-noto-sans-tamil-vf-fonts
@@ -93,6 +95,7 @@ modules:
       - google-noto-serif-bengali-vf-fonts
       - google-noto-serif-cjk-vf-fonts
       - google-noto-serif-devanagari-vf-fonts
+      - google-noto-serif-ethiopic-vf-fonts
       - google-noto-serif-georgian-vf-fonts
       - google-noto-serif-gujarati-vf-fonts
       - google-noto-serif-gurmukhi-vf-fonts
