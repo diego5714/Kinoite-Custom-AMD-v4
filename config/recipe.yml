@@ -56,7 +56,6 @@ modules:
       - intel-gpu-firmware
       - libratbag-ratbagd
       - xwaylandvideobridge
-      - libva-intel-hybrid-driver
       - libva-intel-media-driver
       - intel-gmmlib
       - intel-mediasdk
