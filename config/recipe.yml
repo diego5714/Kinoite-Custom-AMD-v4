@@ -138,6 +138,7 @@ modules:
       - default-fonts-ku
       - default-fonts-lo
       - default-fonts-mai
+      - default-fonts-mni
       - default-fonts-ml
       - default-fonts-mr
       - default-fonts-my
@@ -149,6 +150,7 @@ modules:
       - default-fonts-or
       - default-fonts-pa
       - default-fonts-ru
+      - default-fonts-sat
       - default-fonts-si
       - default-fonts-ss
       - default-fonts-ta
