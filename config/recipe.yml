@@ -57,6 +57,7 @@ modules:
       - libratbag-ratbagd
       - xwaylandvideobridge
       - intel-media-driver
+      - libva-intel-driver
       - libva-intel-media-driver
       - intel-gmmlib
       - intel-mediasdk
