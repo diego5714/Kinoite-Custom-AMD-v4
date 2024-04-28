@@ -28,8 +28,6 @@ modules:
       - binutils
       #####################
       #Aplicaciones con GUI
-      - okular
-      - gwenview
       - gnome-disk-utility
       - corectrl
       - simple-scan
