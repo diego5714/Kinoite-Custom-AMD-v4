@@ -23,7 +23,7 @@ modules:
       ####################
       #Utilidades
       - lm_sensors
-      - neofetch
+      - fastfetch
       - fastboot
       - binutils
       #####################
