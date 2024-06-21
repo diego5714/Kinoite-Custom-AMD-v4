@@ -51,7 +51,6 @@ modules:
       - nvidia-gpu-firmware
       - intel-gpu-firmware
       - libratbag-ratbagd
-      - xwaylandvideobridge
       - intel-media-driver
       - libva-intel-driver
       - libva-intel-media-driver
