@@ -56,7 +56,7 @@ modules:
       - libva-intel-media-driver
       #- intel-gmmlib
       #- intel-mediasdk
-      #- oneVPL-intel-gpu
+      - oneVPL-intel-gpu
       ######################
       #Fonts
       - google-noto-sans-cjk-fonts
