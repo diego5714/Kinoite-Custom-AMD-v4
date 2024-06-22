@@ -57,8 +57,6 @@ modules:
       - intel-gmmlib
       - intel-mediasdk
       - intel-vpl-gpu-rt
-      - libvpl
-      - oneVPL
       ######################
       #Fonts
       - google-noto-sans-cjk-fonts
