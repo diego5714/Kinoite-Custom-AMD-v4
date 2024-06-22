@@ -53,7 +53,7 @@ modules:
       - libratbag-ratbagd
       #- intel-media-driver
       #- libva-intel-driver
-      #- libva-intel-media-driver
+      - libva-intel-media-driver
       #- intel-gmmlib
       #- intel-mediasdk
       #- oneVPL-intel-gpu
