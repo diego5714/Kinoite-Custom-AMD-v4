@@ -34,7 +34,6 @@ modules:
       - skanpage
       - kvantum
       - goverlay
-      - obs-studio
       #####################
       #Configuracion
       - steam-devices
