@@ -49,6 +49,7 @@ modules:
       - steam-devices
       - hunspell-es
       - hunspell-es-CL
+      - rsms-inter-fonts #Inter font
       
     remove:
       #####################
