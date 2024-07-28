@@ -1,14 +1,18 @@
 # image will be published to ghcr.io/<user>/<name>
 name: kinoite-custom-amd-v4
+
 # description will be included in the image's metadata
-description: "Imagen customizada de Fedora Kinoite para mis PCs con CPU + GPU AMD "
+description: "Customized Fedora Kinoite image, based on BlueBuild, for my PCs with an AMD CPU and GPU"
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/kinoite-main
-image-version: 40 # latest is also supported if you want new updates ASAP
+
+image-version: 40
+    # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
+
 modules:
   - type: files
     files:
@@ -18,16 +22,18 @@ modules:
           # in /usr/etc/ in the image. read more in files module reference.
 
   - type: rpm-ostree
-    repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+
+    repos:
+
     install:
       ####################
-      #Utilidades
+      #Utilities
       - lm_sensors
       - fastfetch
       - fastboot
       - binutils
       #####################
-      #Aplicaciones con GUI
+      #GUI Applications
       - gnome-disk-utility
       - corectrl
       - simple-scan
@@ -35,7 +41,7 @@ modules:
       - kvantum
       - goverlay
       #####################
-      #Configuracion
+      #Config
       - steam-devices
       - hunspell-es
       - hunspell-es-CL
@@ -43,8 +49,8 @@ modules:
     remove:
       #####################
       #Programas
-      - firefox # default firefox removed in favor of flatpak
-      - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
+      - firefox
+      - firefox-langpacks
       - mozilla-filesystem
       ######################
       #Otros
@@ -167,20 +173,32 @@ modules:
       - default-fonts-other-mono
   
   - type: default-flatpaks
-    notify: true # Send notification after install/uninstall is finished (true/false)
+    notify: true
+        # Send notification after install/uninstall is finished (true/false)
+
     system:
       # If no repo information is specified, Flathub will be used by default
       # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+
       install:
         - org.mozilla.firefox
-        # - org.gnome.Loupe
+        - com.github.tchx84.Flatseal
+        - io.github.thetumultuousunicornofdarkness.cpu-x
+        - org.kde.gwenview
+        - org.kde.haruna
+        - org.kde.kcalc
+        - org.kde.okular
+        - com.bitwarden.desktop
+
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
         # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
         # only normal flatpak applications are (like Floorp Lightning web browser in this example).
         # Installing different branches of the same Flatpak is not supported.
+
       remove:
         # - org.gnome.eog
 
-  - type: signing # this sets up the proper policy & signing files for signed images to work fully
+  - type: signing
+        # this sets up the proper policy & signing files for signed images to work fully
