@@ -44,7 +44,6 @@ modules:
       - skanpage
       - kvantum
       - goverlay
-      - virt-manager
       #####################
       #Config
       - steam-devices
