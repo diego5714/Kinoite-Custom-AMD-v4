@@ -44,6 +44,7 @@ modules:
       - skanpage
       - kvantum
       - goverlay
+      - VirtualBox
       #####################
       #Config
       - steam-devices
