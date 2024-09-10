@@ -179,6 +179,11 @@ modules:
       - default-fonts-other-serif
       - default-fonts-other-mono
   
+  - type: akmods
+    base: main # if not specified, classic "main" base is used by default
+    install:
+      - VirtualBox
+  
   - type: default-flatpaks
     notify: true
         # Send notification after install/uninstall is finished (true/false)
