@@ -44,7 +44,6 @@ modules:
       - skanpage
       - kvantum
       - goverlay
-      - VirtualBox
       #####################
       #Config
       - steam-devices
@@ -182,7 +181,6 @@ modules:
   - type: akmods
     base: main # if not specified, classic "main" base is used by default
     install:
-      - VirtualBox
   
   - type: default-flatpaks
     notify: true
