@@ -36,6 +36,7 @@ modules:
       - fastfetch
       - fastboot
       - binutils
+      - fish
       #####################
       #GUI Applications
       - gnome-disk-utility
