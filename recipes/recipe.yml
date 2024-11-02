@@ -64,7 +64,7 @@ modules:
       - nvidia-gpu-firmware
       - intel-gpu-firmware
       - libratbag-ratbagd
-      - intel-vaapi-driver
+      #- intel-vaapi-driver
       - libva-intel-media-driver
       - intel-gmmlib
       - intel-mediasdk
