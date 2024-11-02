@@ -65,10 +65,10 @@ modules:
       - intel-gpu-firmware
       - libratbag-ratbagd
       #- intel-vaapi-driver
-      - libva-intel-media-driver
-      - intel-gmmlib
-      - intel-mediasdk
-      - intel-vpl-gpu-rt
+      #- libva-intel-media-driver
+      #- intel-gmmlib
+      #- intel-mediasdk
+      #- intel-vpl-gpu-rt
       ######################
       #Fonts
       - google-noto-sans-cjk-fonts
