@@ -56,11 +56,11 @@ modules:
       - rsms-inter-vf-fonts
       
     remove:
-      # #####################
-      # #Programas
-      # - firefox
-      # - firefox-langpacks
-      # - mozilla-filesystem
+      #####################
+      #Programas
+      - firefox
+      - firefox-langpacks
+      - mozilla-filesystem
       # ######################
       # #Otros
       # - nvidia-gpu-firmware
