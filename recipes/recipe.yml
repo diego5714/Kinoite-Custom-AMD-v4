@@ -63,7 +63,12 @@ modules:
       - firefox
       #####################
       # Utilities
-      #
+      - vim-common
+      - vim-data
+      - vim-enhanced
+      - vim-filesystem
+      - vim-minimal
+      - virtualbox-guest-additions
       #####################
       # Config and filesystem layout
       - firefox-langpacks         #Language packs for firefox
