@@ -84,9 +84,19 @@ modules:
       - libva-intel-media-driver  #Video encode/decode
       ######################
       # Firmware
+      - atheros-firmware          #Atheros wifi/bluetooth
+      - brcmfmac-firmware         #Broadcom/Cypress wifi/bluetooth
+      - b43-fwcutter              #Firmware extraction tool for broadcom
+      - b43-openfwwf              #Open firmware for certain broadcom wlan chips.
+      - cirrus-audio-firmware     #Cirrus amplifiers and codecs
+      - intel-audio-firmware      #Intel amplifiers and codecs
       - intel-gpu-firmware        #Intel GPUs
       - intel-vsc-firmware        #Webcams and vision firmware
+      - iwlegacy-firmware         #Wifi firmware for legacy intel wifi cards
+      - libertas-firmware         #Marvel libertas USB wifi adapters
+      - mt7xxx-firmware           #Mediatek wifi/bluetooth
       - nvidia-gpu-firmware       #Nvidia GPUs
+      - nxpwireless-firmware      #NXP Wifi/Bluetooth
       - tiwilink-firmware         #Texas instruments wifi/bluetooth
       ######################
       # Fonts
