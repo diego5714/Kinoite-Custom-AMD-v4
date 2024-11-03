@@ -74,13 +74,16 @@ modules:
       # Config, libs and filesystem layout
       - firefox-langpacks         #Language packs for firefox
       - mozilla-filesystem        #Directories required by firefox
-      - vapoursynth-libs
       ######################
       # Intel related
+      - intel-audio-firmware      #Intel amplifiers and codecs
       - intel-gmmlib              #Graphics memory management
+      - intel-gpu-firmware        #Intel GPUs
       - intel-mediasdk            #iGPU video processing
       - intel-vaapi-driver        #Video encode/decode
       - intel-vpl-gpu-rt          #GPU video processing
+      - intel-vsc-firmware        #Webcams and vision firmware
+      - iwlegacy-firmware         #Wifi firmware for legacy intel wifi cards
       - libva-intel-media-driver  #Video encode/decode
       ######################
       # Firmware
@@ -89,10 +92,6 @@ modules:
       - b43-fwcutter              #Firmware extraction tool for broadcom
       - b43-openfwwf              #Open firmware for certain broadcom wlan chips.
       - cirrus-audio-firmware     #Cirrus amplifiers and codecs
-      - intel-audio-firmware      #Intel amplifiers and codecs
-      - intel-gpu-firmware        #Intel GPUs
-      - intel-vsc-firmware        #Webcams and vision firmware
-      - iwlegacy-firmware         #Wifi firmware for legacy intel wifi cards
       - libertas-firmware         #Marvel libertas USB wifi adapters
       - mt7xxx-firmware           #Mediatek wifi/bluetooth
       - nvidia-gpu-firmware       #Nvidia GPUs
