@@ -69,6 +69,7 @@ modules:
       - vim-filesystem
       - vim-minimal
       - virtualbox-guest-additions
+      - xorg-x11-server-Xorg
       #####################
       # Config and filesystem layout
       - firefox-langpacks         #Language packs for firefox
