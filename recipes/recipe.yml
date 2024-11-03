@@ -47,7 +47,7 @@ modules:
       - simple-scan
       - skanpage
       #####################
-      # Config
+      # Config and libs
       - hunspell-es
       - hunspell-es-CL
       - steam-devices
@@ -71,9 +71,10 @@ modules:
       - virtualbox-guest-additions
       - xrandr
       #####################
-      # Config and filesystem layout
+      # Config, libs and filesystem layout
       - firefox-langpacks         #Language packs for firefox
       - mozilla-filesystem        #Directories required by firefox
+      - vapoursynth-libs
       ######################
       # Intel related
       - intel-gmmlib              #Graphics memory management
