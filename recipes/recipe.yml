@@ -27,6 +27,7 @@ modules:
   - type: rpm-ostree
 
     repos:
+      - https://copr.fedorainfracloud.org/coprs/ecomaikgolf/typst/repo/fedora-%OS_VERSION%/ecomaikgolf-typst-fedora-%OS_VERSION%.repo
 
     install:
       ####################
@@ -37,6 +38,7 @@ modules:
       - fish
       - lm_sensors
       - zsh
+      - typst
       #####################
       # GUI Applications
       - corectrl
