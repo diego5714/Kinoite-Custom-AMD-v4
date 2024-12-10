@@ -37,7 +37,7 @@ modules:
       - fastfetch
       - fish
       - lm_sensors
-      - qemu
+      - qemu-kvm
       - typst
       #####################
       # GUI Applications
