@@ -36,6 +36,8 @@ modules:
       - fastboot
       - fastfetch
       - fish
+      - libvirt-daemon-config-network
+      - libvirt-daemon-kvm
       - lm_sensors
       - qemu-kvm
       - typst
