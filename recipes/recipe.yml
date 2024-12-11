@@ -41,6 +41,7 @@ modules:
       - lm_sensors
       - qemu-kvm
       - typst
+      - virt-manager
       #####################
       # GUI Applications
       - corectrl
