@@ -32,12 +32,11 @@ modules:
     install:
       ####################
       # Utilities
+      - aom                       #AV1 Encoder and decoder
       - binutils
       - fastboot
       - fastfetch
       - fish
-      - libvirt-daemon-config-network
-      - libvirt-daemon-kvm
       - lm_sensors
       - qemu-kvm
       - typst
@@ -54,6 +53,8 @@ modules:
       # Config and libs
       - hunspell-es
       - hunspell-es-CL
+      - libvirt-daemon-config-network
+      - libvirt-daemon-kvm
       - steam-devices
       #####################
       # Fonts
