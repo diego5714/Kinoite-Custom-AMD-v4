@@ -235,7 +235,7 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
 
       install:
-        - org.mozilla.firefox
+        - app.zen_browser.zen
         - com.github.tchx84.Flatseal
         - io.github.thetumultuousunicornofdarkness.cpu-x
         - org.kde.gwenview
