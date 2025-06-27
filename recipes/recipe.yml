@@ -76,9 +76,24 @@ modules:
       - virtualbox-guest-additions
       - xrandr
       #####################
-      # Config, libs and filesystem layout
+      # Config, libs, addons and filesystem layout
       - firefox-langpacks         #Language packs for firefox
       - mozilla-filesystem        #Directories required by firefox
+      - braille-printer-app
+      - fcitx5-chinese-addons
+      - fcitx5-chinese-addons-data
+      - fcitx5-hangul
+      - fcitx5-libthai
+      - fcitx5-mozc
+      - fcitx5-sayura
+      - fcitx5-unikey
+      - ibus-anthy
+      - ibus-anthy-python
+      - ibus-chewing
+      - ibus-hangul
+      - ibus-libpinyin
+      - kasumi-common
+      - kasumi-unicode
       ######################
       # Intel related
       - intel-audio-firmware      #Intel amplifiers and codecs
@@ -136,6 +151,7 @@ modules:
       - default-fonts-ia
       - default-fonts-iu
       - default-fonts-ka
+      - default-fonts-kab
       - default-fonts-km
       - default-fonts-kn
       - default-fonts-ku
@@ -148,6 +164,7 @@ modules:
       - default-fonts-nb
       - default-fonts-ne
       - default-fonts-nn
+      - default-fonts-nqo
       - default-fonts-nr
       - default-fonts-nso
       - default-fonts-or
@@ -159,6 +176,7 @@ modules:
       - default-fonts-sat
       - default-fonts-si
       - default-fonts-ss
+      - default-fonts-syr
       - default-fonts-ta
       - default-fonts-te
       - default-fonts-th
@@ -192,10 +210,12 @@ modules:
       - google-noto-sans-lao-vf-fonts
       - google-noto-sans-meetei-mayek-vf-fonts
       - google-noto-sans-mono-cjk-vf-fonts
+      - google-noto-sans-nko-fonts
       - google-noto-sans-ol-chiki-vf-fonts
       - google-noto-sans-oriya-vf-fonts
       - google-noto-sans-sinhala-vf-fonts
       - google-noto-sans-sundanese-fonts
+      - google-noto-sans-syriac-vf-fonts
       - google-noto-sans-tamil-vf-fonts
       - google-noto-sans-telugu-vf-fonts
       - google-noto-sans-thaana-vf-fonts
