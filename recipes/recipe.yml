@@ -49,7 +49,6 @@ modules:
       - kvantum
       - simple-scan
       - skanpage
-      - spice-gtk-tools
       #####################
       # Config and libs
       - hunspell-es
@@ -62,6 +61,19 @@ modules:
       # Inter font family.
       - rsms-inter-fonts
       - rsms-inter-vf-fonts
+
+      #####################
+      # Quickemu dependencies
+      - spice-gtk-tools
+      - edk2-tools
+      - genisoimage
+      - grep
+      - mesa-demos
+      - pciutils
+      - procps
+      - usbutils
+      - util-linux
+      - zsync
       
     remove:
       #####################
