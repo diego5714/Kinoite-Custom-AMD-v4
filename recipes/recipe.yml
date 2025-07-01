@@ -40,7 +40,7 @@ modules:
       - lm_sensors
       - qemu-kvm
       - typst
-      - virt-manager
+      - quickemu
       #####################
       # GUI Applications
       - corectrl
@@ -49,6 +49,7 @@ modules:
       - kvantum
       - simple-scan
       - skanpage
+      - virt-manager
       #####################
       # Config and libs
       - hunspell-es
@@ -63,12 +64,6 @@ modules:
       - rsms-inter-vf-fonts
 
       #####################
-      # Quickemu dependencies
-      - spice-gtk-tools
-      - edk2-tools
-      - genisoimage
-      - usbutils
-      - zsync
       
     remove:
       #####################
