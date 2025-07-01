@@ -49,7 +49,7 @@ modules:
       - kvantum
       - simple-scan
       - skanpage
-      - spice-gtk
+      - spice-gtk-tools
       #####################
       # Config and libs
       - hunspell-es
