@@ -67,12 +67,7 @@ modules:
       - spice-gtk-tools
       - edk2-tools
       - genisoimage
-      - grep
-      - mesa-demos
-      - pciutils
-      - procps
       - usbutils
-      - util-linux
       - zsync
       
     remove:
