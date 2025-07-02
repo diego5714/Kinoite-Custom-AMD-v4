@@ -28,6 +28,7 @@ modules:
 
     repos:
       - https://copr.fedorainfracloud.org/coprs/ecomaikgolf/typst/repo/fedora-%OS_VERSION%/ecomaikgolf-typst-fedora-%OS_VERSION%.repo
+      - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
 
     install:
       ####################
@@ -41,6 +42,7 @@ modules:
       - qemu-kvm
       - typst
       - virt-manager
+      - tailscale
       #####################
       # GUI Applications
       - corectrl
@@ -61,7 +63,6 @@ modules:
       # Inter font family.
       - rsms-inter-fonts
       - rsms-inter-vf-fonts
-
       #####################
       # Quickemu dependencies
       - spice-gtk-tools
