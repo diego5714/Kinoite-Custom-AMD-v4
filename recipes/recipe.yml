@@ -33,16 +33,14 @@ modules:
     install:
       ####################
       # Utilities
-      - aom                       #AV1 Encoder and decoder
       - binutils
       - fastboot
       - fastfetch
       - fish
       - lm_sensors
       - qemu-kvm
-      - typst
-      - virt-manager
       - tailscale
+      - typst
       #####################
       # GUI Applications
       - corectrl
@@ -50,7 +48,7 @@ modules:
       - goverlay
       - kvantum
       - simple-scan
-      - skanpage
+      - virt-manager
       #####################
       # Config and libs
       - hunspell-es
