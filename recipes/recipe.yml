@@ -7,10 +7,11 @@ description: "Customized Fedora Kinoite image, based on BlueBuild, for my PCs wi
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/kinoite-main
 
-image-version: 42
-    # latest is also supported if you want new updates ASAP
+image-version: 42 
+# latest is also supported if you want new updates ASAP
 
-# module configuration, executed in order
+
+# Module configuration, executed in order
 # you can include multiple instances of the same module
 
 modules:
@@ -252,32 +253,24 @@ modules:
   #  install:
   
   - type: default-flatpaks
-    notify: true
+    configurations:
+      - notify: false
         # Send notification after install/uninstall is finished (true/false)
-
-    system:
-      # If no repo information is specified, Flathub will be used by default
-      # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      # repo-name: flathub
-      # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
-
-      install:
-        - app.zen_browser.zen
-        - com.github.tchx84.Flatseal
-        - io.github.thetumultuousunicornofdarkness.cpu-x
-        - org.kde.gwenview
-        - org.kde.haruna
-        - org.kde.kcalc
-        - org.kde.okular
-        - com.bitwarden.desktop
-
-        # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
-        # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
-        # only normal flatpak applications are (like Floorp Lightning web browser in this example).
-        # Installing different branches of the same Flatpak is not supported.
-
-      remove: []
-        # - org.gnome.eog
+      
+        scope: system
+        # Set if flatpaks will be installed in system or user mode (User by default)
+        repo: 
+        # If no repo information is specified, Flathub will be used by default (See bluebuild docs)
+        
+        install:
+          - app.zen_browser.zen
+          - com.github.tchx84.Flatseal
+          - io.github.thetumultuousunicornofdarkness.cpu-x
+          - org.kde.gwenview
+          - org.kde.haruna
+          - org.kde.kcalc
+          - org.kde.okular
+          - com.bitwarden.desktop
 
   - type: signing
         # this sets up the proper policy & signing files for signed images to work fully
