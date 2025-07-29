@@ -259,9 +259,8 @@ modules:
       
         scope: system
         # Set if flatpaks will be installed in system or user mode (User by default)
-        repo: 
-        # If no repo information is specified, Flathub will be used by default (See bluebuild docs)
         
+        # If no repo information is specified, Flathub will be used by default (See bluebuild docs)
         install:
           - app.zen_browser.zen
           - com.github.tchx84.Flatseal
