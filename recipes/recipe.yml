@@ -41,6 +41,7 @@ modules:
       - lm_sensors
       - qemu-kvm
       - tailscale
+      - tealdeer
       - typst
       #####################
       # GUI Applications
