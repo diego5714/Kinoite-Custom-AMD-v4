@@ -35,6 +35,7 @@ modules:
       ####################
       # Utilities
       - binutils
+      - btop
       - fastboot
       - fastfetch
       - fish
