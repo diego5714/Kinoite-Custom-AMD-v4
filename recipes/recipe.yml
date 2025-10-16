@@ -99,6 +99,7 @@ modules:
         - ibus-libpinyin
         - kasumi-common
         - kasumi-unicode
+        - virtualbox-guest-additions
 
         # Intel related #####################
         - intel-audio-firmware #Intel amplifiers and codecs
