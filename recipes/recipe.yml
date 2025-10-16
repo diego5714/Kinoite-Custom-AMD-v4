@@ -34,7 +34,7 @@ modules:
     install:
       skip-unavailable: false
       packages:
-        - repo: tailscale
+        - repo: tailscale-stable
           packages:
             - tailscale
 
