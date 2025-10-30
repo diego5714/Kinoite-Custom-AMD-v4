@@ -45,6 +45,7 @@ modules:
         - fastfetch
         - fish
         - lm_sensors
+        - podman-compose
         - qemu-kvm
         - tealdeer
         - typst
