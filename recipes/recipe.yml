@@ -54,7 +54,9 @@ modules:
         - corectrl
         - gnome-disk-utility
         - goverlay
+        - gwenview
         - kvantum
+        - okular
         - simple-scan
         - virt-manager
 
@@ -260,10 +262,8 @@ modules:
           - app.zen_browser.zen
           - com.github.tchx84.Flatseal
           - io.github.thetumultuousunicornofdarkness.cpu-x
-          - org.kde.gwenview
           - org.kde.haruna
           - org.kde.kcalc
-          - org.kde.okular
           - com.bitwarden.desktop
           - com.vscodium.codium
           - dev.zed.Zed
