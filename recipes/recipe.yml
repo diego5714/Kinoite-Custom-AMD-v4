@@ -17,18 +17,12 @@ modules:
   - type: files
 
     files:
-      - source: system
-        destination: /
-
-        # copies files/system/* (* means everything inside it) into your image's root folder /
-        # read more about this in files module reference.
-
       - source: keyboard_layouts
         destination: /usr/share/X11/xkb/symbols/
         # Copy keyboard layouts into system image
 
       - source: xkb_settings
-        destination: /usr/share/X11/xorg.conf.d/
+        destination: /etc/X11/xorg.conf.d/
         # Copy xkb settings into system image
 
   - type: dnf
