@@ -27,6 +27,10 @@ modules:
         destination: /usr/share/X11/xkb/symbols/
         # Copy keyboard layouts into system image
 
+      - source: xkb_settings
+        destination: /usr/share/X11/xorg.conf.d/
+        # Copy xkb settings into system image
+
   - type: dnf
     repos:
       files:

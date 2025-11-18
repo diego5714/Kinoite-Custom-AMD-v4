@@ -5,6 +5,7 @@
 # builds actually ran successfully without any errors!
 set -oue pipefail
 
+# Your code goes here.
 echo "Registering custom keyboard layout 'us-custom'..."
 
 # Modify evdev.lst
@@ -22,10 +23,3 @@ sed -i '/<\/layoutList>/i \
     </layout>' /usr/share/X11/xkb/rules/evdev.xml
 
 echo "Custom keyboard layout 'us-custom' registered succesfully."
-
-echo "Setting 'lv3:ralt_switch' as system-wide XKB option..."
-
-# This enables Right Alt to act as AltGr
-localectl set-x11-keymap us "" "" lv3:ralt_switch
-
-echo "System-wide keyboard options set."
