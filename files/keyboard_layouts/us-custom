@@ -1,0 +1,13 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    // We inherit the default "us" layout
+    include "us(basic)"
+
+    name[Group1] = "English (US, Custom)";
+
+    // Add 'ñ' using Right Alt + N
+    key <AB06> { [	   n,          N,        ntilde,           Ntilde ] };
+
+    // Add Spanish tilde on key with '|' and '\'
+    key <BKSL>	{[ dead_acute,	 bar,	backslash	]};
+};
