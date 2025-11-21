@@ -75,7 +75,7 @@ modules:
     remove:
       packages:
         # GUI Apps ##########################
-        - firefox
+        #- firefox
 
         # CLI Utilities #####################
         - vim-common
@@ -86,8 +86,8 @@ modules:
         - xrandr
 
         # Configs, libs, addons and filesystem layouts
-        - firefox-langpacks
-        - mozilla-filesystem
+        #- firefox-langpacks
+        #- mozilla-filesystem
         - braille-printer-app
         - fcitx5-chinese-addons
         - fcitx5-chinese-addons-data
