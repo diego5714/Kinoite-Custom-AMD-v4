@@ -76,6 +76,7 @@ modules:
       packages:
         # GUI Apps ##########################
         - firefox
+        - kate
 
         # CLI Utilities #####################
         - vim-common
