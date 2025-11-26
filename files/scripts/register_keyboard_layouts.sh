@@ -6,16 +6,16 @@
 set -oue pipefail
 
 # Your code goes here.
-echo "Registering custom keyboard layout 'us-custom'..."
+echo "Registering custom keyboard layout 'custom'..."
 
 # Modify evdev.lst
-sed -i '/^  us              English (US)$/a \  us-custom       English (US, Custom)' /usr/share/X11/xkb/rules/evdev.lst
+sed -i '/^  us              English (US)$/a \  custom          English (US, Custom)' /usr/share/X11/xkb/rules/evdev.lst
 
 # Modify evdev.xml
 sed -i '/<\/layoutList>/i \
     <layout>\
       <configItem>\
-        <name>us-custom</name>\
+        <name>custom</name>\
         <shortDescription>US-Custom</shortDescription>\
         <description>English (US, Custom)</description>\
         <languageList><iso639Id>eng</iso639Id></languageList>\
