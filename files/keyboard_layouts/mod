@@ -5,8 +5,11 @@ xkb_symbols "basic" {
 
     name[Group1] = "English (US, Custom)";
 
+    // Add '¡' using Right alt + 1
+    key <AE01>	{[	  1,	 exclam,	exclamdown 	]};
+
     // Add 'ñ' using Right Alt + N
-    key <AB06> { [	   n,          N,        ntilde,           Ntilde ] };
+    key <AB06> { [	   n,	N,	 ntilde,	Ntilde ] };
 
     // Add Spanish tilde on key with '|' and '\'
     key <BKSL>	{[ dead_acute,	 bar,	backslash	]};
