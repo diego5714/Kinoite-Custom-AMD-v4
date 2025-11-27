@@ -104,8 +104,6 @@ modules:
         - ibus-libpinyin
         - kasumi-common
         - kasumi-unicode
-        - libwacom
-        - libwacom-data
         - virtualbox-guest-additions
 
         # Intel related #####################
