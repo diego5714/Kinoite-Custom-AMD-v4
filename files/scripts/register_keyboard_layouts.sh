@@ -22,4 +22,4 @@ sed -i '/<\/layoutList>/i \
       </configItem>\
     </layout>' /usr/share/X11/xkb/rules/evdev.xml
 
-echo "Custom keyboard layout 'us-custom' registered succesfully."
+echo "Custom keyboard layout 'mod' registered succesfully."
