@@ -5,7 +5,7 @@ name: kinoite-custom-amd-v4
 description: "Customized Fedora Kinoite image, based on BlueBuild, for my PCs with an AMD CPU and GPU"
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/blue-build/base-images/fedora-kinoite
 
 image-version: 43
 # latest is also supported if you want new updates ASAP
