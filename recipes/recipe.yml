@@ -39,9 +39,6 @@ modules:
         - repo: tailscale-stable
           packages:
             - tailscale
-        - repo: zerotier
-          packages:
-            - zerotier-one
 
         # CLI Utilities #####################
         - binutils
@@ -152,6 +149,7 @@ modules:
         - default-fonts-br
         - default-fonts-chr
         - default-fonts-cjk-mono
+        - default-fonts-cjk-sans
         - default-fonts-cjk-serif
         - default-fonts-dv
         - default-fonts-dz
@@ -213,6 +211,7 @@ modules:
         - google-noto-sans-canadian-aboriginal-vf-fonts
         - google-noto-sans-cherokee-vf-fonts
         - google-noto-sans-cjk-fonts
+        - google-noto-sans-cjk-vf-fonts
         - google-noto-sans-devanagari-vf-fonts
         - google-noto-sans-ethiopic-vf-fonts
         - google-noto-sans-georgian-vf-fonts
