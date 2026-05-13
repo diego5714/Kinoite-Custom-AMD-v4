@@ -29,6 +29,7 @@ modules:
     repos:
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+        - https://download.zerotier.com/redhat/fc/%OS_VERSION%
       copr:
         - ecomaikgolf/typst
 
@@ -38,6 +39,9 @@ modules:
         - repo: tailscale-stable
           packages:
             - tailscale
+        - repo: zerotier
+          packages:
+            - zerotier-one
 
         # CLI Utilities #####################
         - binutils
