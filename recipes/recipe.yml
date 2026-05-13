@@ -29,7 +29,6 @@ modules:
     repos:
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
-        - https://download.zerotier.com/redhat/fc/%OS_VERSION%
       copr:
         - ecomaikgolf/typst
 
