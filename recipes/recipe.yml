@@ -127,6 +127,7 @@ modules:
         - mt7xxx-firmware #Mediatek wifi/bluetooth
         - nvidia-gpu-firmware #Nvidia GPUs
         - nxpwireless-firmware #NXP Wifi/Bluetooth
+        - realtek-firmware #Realtek Wifi/Bluetooth
         - tiwilink-firmware #Texas instruments wifi/bluetooth
 
         # Fonts #############################
