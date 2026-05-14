@@ -163,6 +163,7 @@ modules:
         - default-fonts-hi
         - default-fonts-hy
         - default-fonts-ia
+        - default-fonts-ii
         - default-fonts-iu
         - default-fonts-ka
         - default-fonts-kab
@@ -234,6 +235,7 @@ modules:
         - google-noto-sans-tamil-vf-fonts
         - google-noto-sans-telugu-vf-fonts
         - google-noto-sans-thaana-vf-fonts
+        - google-noto-sans-yi-fonts
         - google-noto-sans-thai-vf-fonts
         - google-noto-serif-armenian-vf-fonts
         - google-noto-serif-bengali-vf-fonts
