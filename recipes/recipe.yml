@@ -128,6 +128,7 @@ modules:
         - nvidia-gpu-firmware #Nvidia GPUs
         - nxpwireless-firmware #NXP Wifi/Bluetooth
         - realtek-firmware #Realtek Wifi/Bluetooth
+        - qcom-wwan-firmware #Qualcom wireless WAN modems
         - tiwilink-firmware #Texas instruments wifi/bluetooth
 
         # Fonts #############################
