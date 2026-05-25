@@ -60,6 +60,7 @@ modules:
         - kvantum
         - okular
         - simple-scan
+        - smb4k
         - virt-manager
 
         # Configuration and libraries #######
