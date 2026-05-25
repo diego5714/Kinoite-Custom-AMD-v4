@@ -45,6 +45,7 @@ modules:
         - fastboot
         - fastfetch
         - fish
+        - gcc
         - lm_sensors
         - podman-compose
         - qemu-kvm
