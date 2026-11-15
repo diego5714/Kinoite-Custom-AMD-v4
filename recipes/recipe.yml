@@ -49,7 +49,6 @@ modules:
         - lm_sensors
         - podman-compose
         - qemu-kvm
-        - tealdeer
         - typst
 
         # GUI Apps ##########################
