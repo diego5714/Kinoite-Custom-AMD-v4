@@ -275,7 +275,6 @@ modules:
           - org.kde.kcalc
           - com.bitwarden.desktop
           - com.vscodium.codium
-          - dev.zed.Zed
 
   - type: script
     scripts:
